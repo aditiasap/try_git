@@ -38,3 +38,36 @@ Init
 
 - git push				==> push to remote repo
 
+- git push origin master
+
+Managing conflicts :
+- git pull --rebase origin master ==> put commit to the top of master branch
+
+Manual resolve conflicting files :
+- git status
+- git add <some-file>
+- git rebase --continue
+
+- git rebase --abort ==> back to previous rebase
+
+Centralize workflow :
+https://www.atlassian.com/git/tutorials/comparing-workflows#centralized-workflow
+
+Feature branch workflow :
+https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow
+
+- git checkout -b marys-feature master
+- git status
+- git add <some-file>
+- git commit
+
+- git push -u origin marys-feature
+- git push
+
+File Pull Request..
+Once done, Merge..
+
+- git checkout master
+- git pull
+- git pull origin marys-feature
+- git push
