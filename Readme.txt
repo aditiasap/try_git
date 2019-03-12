@@ -71,3 +71,6 @@ Once done, Merge..
 - git pull
 - git pull origin marys-feature
 - git push
+
+Good practice for developer to squash before pushing :
+https://blog.carbonfive.com/2017/08/28/always-squash-and-rebase-your-git-commits/
